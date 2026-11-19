@@ -1,0 +1,146 @@
+#root {
+  min-height: 100vh;
+}
+
+.pagina {
+  min-height: 100vh;
+  background: #f3f6fb;
+  color: #172554;
+}
+
+.encabezado {
+  background: linear-gradient(135deg, #142d5e, #2563a8);
+  color: white;
+  padding: 65px 20px 85px;
+  text-align: center;
+}
+
+.encabezado-contenido {
+  max-width: 850px;
+  margin: auto;
+}
+
+.etiqueta {
+  display: inline-block;
+  padding: 8px 15px;
+  border: 1px solid #ffffff55;
+  border-radius: 30px;
+  font-size: 12px;
+  letter-spacing: 2px;
+  margin-bottom: 15px;
+}
+
+.encabezado h1 {
+  font-size: clamp(30px, 5vw, 46px);
+  margin: 5px 0 12px;
+}
+
+.encabezado p {
+  color: #dbeafe;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+.contenedor {
+  max-width: 1050px;
+  margin: -35px auto 50px;
+  padding: 0 20px;
+  position: relative;
+}
+
+.contenedor section {
+  background: white;
+  border-radius: 18px;
+  padding: 30px;
+  box-shadow: 0 12px 35px #1e3a8a12;
+}
+
+.contenedor section h2 {
+  color: #17366c;
+  font-size: 25px;
+  margin: 0 0 22px;
+}
+
+.contenedor input {
+  width: 100%;
+  padding: 15px 18px;
+  border: 1px solid #d5deeb;
+  border-radius: 10px;
+  font-size: 15px;
+  outline: none;
+  transition: 0.2s;
+  box-sizing: border-box;
+}
+
+.contenedor input:focus {
+  border-color: #2563eb;
+  box-shadow: 0 0 0 3px #2563eb20;
+}
+
+.contenedor section > p {
+  color: #64748b;
+  margin: 18px 0;
+}
+
+.contenedor article {
+  background: #f8faff;
+  border: 1px solid #e3eaf5;
+  border-radius: 12px;
+  padding: 20px;
+  margin: 14px 0;
+  transition: 0.2s;
+}
+
+.contenedor article:hover {
+  transform: translateY(-3px);
+  border-color: #93b4e8;
+  box-shadow: 0 8px 20px #1e3a8a12;
+}
+
+.contenedor article h3 {
+  margin: 0 0 10px;
+  color: #1e3a8a;
+  font-size: 17px;
+}
+
+.contenedor article p {
+  color: #64748b;
+  margin: 8px 0 14px;
+}
+
+.contenedor article a {
+  display: inline-block;
+  color: #2563eb;
+  font-weight: 600;
+  text-decoration: none;
+}
+
+.contenedor article a:hover {
+  text-decoration: underline;
+}
+
+.pie {
+  text-align: center;
+  padding: 25px 15px;
+  color: #64748b;
+  font-size: 13px;
+  border-top: 1px solid #e2e8f0;
+}
+
+.pie p {
+  margin: 5px;
+}
+
+@media (max-width: 600px) {
+  .encabezado {
+    padding: 45px 18px 70px;
+  }
+
+  .contenedor {
+    padding: 0 12px;
+  }
+
+  .contenedor section {
+    padding: 20px;
+  }
+}
